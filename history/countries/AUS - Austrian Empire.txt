@@ -1,0 +1,33 @@
+capital = 4
+oob = AUS_1936
+
+1792.1.1 = {
+
+set_convoys = 300
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1890.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 3
+	authoritarian = 7
+	monarchist = 87
+	socialism = 3
+}
+puppet = BEL
+puppet = GER
+}
+
+################	
+## CHARACTERS ##
+################
+
+recruit_character = AUS_Leopold_II
+recruit_character = AUS_Francis_I
+
