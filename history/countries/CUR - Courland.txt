@@ -1,9 +1,9 @@
-capital = 112
+capital = 809
 
 set_convoys = 300
 
 add_ideas = {
-	
+
 }
 
 set_politics = {
@@ -13,15 +13,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	authoritarian = 20
-	monarchist = 60
+	democratic = 25
+	authoritarian = 25
+	Tribalism = 0
+	monarchist = 50
 	socialism = 0
 }
+
 add_ideas = {
 		}
-puppet = BRA
-puppet = CUR
+		
+recruit_character = CUR_Biron
 
-recruit_character = POL_stanislaw_august_poniatowski
 

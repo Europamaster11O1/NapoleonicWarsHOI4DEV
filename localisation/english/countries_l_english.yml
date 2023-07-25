@@ -1,5 +1,9 @@
 ﻿l_english:
- PER:0 "Perisa"
+
+ CUR:0 "Courland and Semigallia"
+ CUR_DEF:0 "the Duchy of Courland and Semigallia"
+ CUR_ADJ:0 "Courlander" 
+ PER:0 "Persia"
  PER_DEF:0 "Persia"
  PER_ADJ:0 "Persian"
  JAP:0 "Japan"

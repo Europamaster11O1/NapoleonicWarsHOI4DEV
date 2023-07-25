@@ -1,0 +1,16 @@
+characters={
+	CUR_Biron={ #Democratic Leader
+		name="Peter von Biron"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUR/CUR_Biron.dds"
+			}
+		}
+		country_leader={
+			ideology=Despotism
+			traits={ autocratic_imperialist }
+			expire="1795.2.12.1"
+			id=-1
+		}
+	}
+}

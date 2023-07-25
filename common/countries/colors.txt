@@ -1,5 +1,8 @@
 #reload countrycolors
-
+CUR = {
+	color = rgb { 255 76 85 }
+	color_ui = rgb { 255 76 85 }
+} 
 NFL = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
