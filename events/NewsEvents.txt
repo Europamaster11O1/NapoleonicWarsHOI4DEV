@@ -63,5 +63,73 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_003
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+		trigger = {
+		    original_tag = POL
+		}
+	}
+	
+	option = {
+		name = news.5.b
+		trigger = {
+		    original_tag = PRE
+		}
+	}
+	
+	option = {
+		name = news.5.c
+		trigger = {
+		    NOT = {
+			original_tag = POL
+			original_tag = PRE
+			}
+		 }  
+	 }
+}
+
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_003
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+		trigger = {
+		    original_tag = POL
+		}
+	}
+	
+	option = {
+		name = news.6.b
+		trigger = {
+		    original_tag = PRE
+		}
+	}
+	
+	option = {
+		name = news.6.c
+		trigger = {
+		    NOT = {
+			original_tag = POL
+			original_tag = PRE
+			}
+		 }  
+	 }
+}
+
 
 

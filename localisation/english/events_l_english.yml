@@ -1,5 +1,17 @@
 ﻿l_english:
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
+ 
+## Prussia ##
+ prussia.1.t:0 "Second Partition of Poland"
+ prussia.1.d:0 "Seeing that the Polish-Lithuanians have lost their war with Russia, the Russians are about to occupy more territories for themselves, should we send an ultimatum to Poland-Lithuania?"
+ prussia.1.a:0 "Send the Ultimatum."
+ prussia.1.b:0 "This could threaten our Stability... we can look elsewhere for expansion."
+ prussia.2.t:0 "Poland-Lithuania Agrees to the Partition."
+ prussia.2.d:0 "The Polish-Lithuanians have decided to bend their Knee and sign the 2nd Partition Treaty. This will be a Great accomplishment for our Country, we will soon rid of this 'Poland-Lithuania'."
+ prussia.2.a:0 "Good."
+ prussia.3.t:0 "Poland-Lithuania Declines our Ultimatum."
+ prussia.3.d:0 "In spite of Clear Warnings made by Russia and Ourselves, Poland-Lithuania has decided that they can stand against the Two Countries, we will get rid of Them as soon as Possible."
+ prussia.3.a:0 "Mobilize the Army!"
 
 ## France ##
  france.1.t:0 "Storming The Tuileries"
@@ -42,7 +54,18 @@
  news.4.t:0 "Death of Emperor Leopold"
  news.4.d:0 "Last night, unexpectdly Emperor Leopold of the Austrian Habsburgs died suddenly. What will this hold for the future of the European continent. "
  news.4.a:0 "What will this mean for Europe?"
-
+ 
+ news.5.t:0 "Second Partition of Poland"
+ news.5.d:0 "Following the 1792 Polish-Lithuanian Wars, an Ultimatum has been sent from Prussia demanding further concessions from Poland-Lithuania, the Polish-Lithuanians agreed to their demands, and the Transition of Territories has been made."
+ news.5.a:0 "We will never Surrender!"
+ news.5.b:0 "Great."
+ news.5.c:0 "A Flock of Birds feeding on a Corpse."
+ 
+ news.6.t:0 "Poland denies Partition Terms"
+ news.6.d:0 "Seeing a chance to prove that they are still a 'Powerful Country', they immediately declined any ultimatum sent by the Prussians to Warsaw. News are received that Prussia is mobilizing for war, what will Poland-Lithuania do?"
+ news.6.a:0 "We will prove ourselves!"
+ news.6.b:0 "Those Bastards!"
+ news.6.c:0 "Unpredicted turn of events."
 ## Tool Tips ##
 
 MENU_DISCORD:0 "Click Here To Join Our §1Discord!"
