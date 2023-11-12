@@ -19,8 +19,15 @@ set_popularities = {
 	socialism = 0
 }
 give_guarantee = AUS
-add_ideas = {
-}
+	add_ideas = {
+		protestant
+		mildintervention
+		absolute
+		PRE_frederick_the_great_legacy
+		PRE_german_dualism
+		PRE_eastward_incentives
+		PRE_shadows_of_the_royal_forces
+	}
 }
 
 recruit_character = PRE_Frederick_William_II

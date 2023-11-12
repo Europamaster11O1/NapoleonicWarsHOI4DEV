@@ -1,6 +1,16 @@
 spriteTypes = {	
 
-	#### Generic continuous goal icons
+
+
+	SpriteType = {
+	name = "GFX_FRA_destroy_religious_values"
+	texturefile = "gfx/interface/goals/FRA_destroy_religious_values.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_get_rid_of_the_catholic_church"
+	texturefile = "gfx/interface/goals/FRA_get_rid_of_the_catholic_church.dds"			
+	}	
 
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
@@ -2993,11 +3003,6 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_intro_guilotine"
-		texturefile = "gfx/interface/goals/focus_intro_guilotine.dds"
-	}
-
-	SpriteType = { 
 		name = "GFX_focus_the_holy_roman_empire"
 		texturefile = "gfx/interface/goals/focus_the_holy_roman_empire.dds"
 	}
@@ -3061,4 +3066,85 @@ spriteTypes = {
 		name = "GFX_AUS_pro_habsburg_propaganda"
 		texturefile = "gfx/interface/goals/AUS_pro_habsburg_propaganda.dds"
 	}
+
+	SpriteType = { 
+		name = "GFX_AUS_focus_kaisers_tour"
+		texturefile = "gfx/interface/goals/AUS_focus_kaisers_tour.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_focus_surrender_the_netherlands"
+		texturefile = "gfx/interface/goals/AUS_focus_surrender_the_netherlands.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_leave_them_to_their_fate"
+		texturefile = "gfx/interface/goals/AUS_leave_them_to_their_fate.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_until_the_last_drop_of_blood"
+		texturefile = "gfx/interface/goals/AUS_until_the_last_drop_of_blood.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_francis_the_great"
+		texturefile = "gfx/interface/goals/AUS_francis_the_great.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_welcome_the_exiled_monarchy_to_wein"
+		texturefile = "gfx/interface/goals/AUS_focus_welcome_the_exiled_monarchy_to_wein.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_celebrated_the_new_electorate"
+		texturefile = "gfx/interface/goals/AUS_celebrated_the_new_electorate.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_bastion_of_the_alps"
+		texturefile = "gfx/interface/goals/AUS_bastion_of_the_alps.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_focus_send_equipment_to_bavaria"
+		texturefile = "gfx/interface/goals/AUS_focus_send_equipment_to_bavaria.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_defend_munich"
+		texturefile = "gfx/interface/goals/AUS_defend_munich.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_AUS_ban_thought_of_unification"
+		texturefile = "gfx/interface/goals/AUS_ban_thought_of_unification.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_introduction_of_the_guilotine"
+		texturefile = "gfx/interface/goals/FRA_focus_introduce_guilotine.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_peasant_revolt_escalates"
+		texturefile = "gfx/interface/goals/FRA_peasant_revolt_escalates.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_respond_to_the_manifesto"
+		texturefile = "gfx/interface/goals/FRA_respond_to_the_manifesto.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_FRA_to_arms_citizens"
+		texturefile = "gfx/interface/goals/FRA_to_arms_citizens.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_promote_napoleon_icon"
+		texturefile = "gfx/interface/goals/FRA_promote_napoleon.dds"			
+	}
+
 }

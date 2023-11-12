@@ -3,7 +3,7 @@ capital = 59
 set_convoys = 300
 
 add_ideas = {
-	
+	catholic
 }
 
 set_politics = {
@@ -20,6 +20,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	PTY_house_of_hanover
 	}
 
 recruit_character = HAN_George_III

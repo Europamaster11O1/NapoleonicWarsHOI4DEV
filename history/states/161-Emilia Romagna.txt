@@ -7,26 +7,20 @@ state={
 	}
 
 	history={
-		owner = MOD
+		owner = PAR
 		victory_points = {
 			6606 3 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
-			air_base = 2
-			782 = {
-				naval_base = 2
-
-			}
-
 		}
-		add_core_of = MOD
+		add_core_of = PAR
 
 	}
 
 	provinces={
-		3773 3976 6790 6973 9752 
+		3773 6790 
 	}
 	manpower=3202401
 	buildings_max_level_factor=1.000

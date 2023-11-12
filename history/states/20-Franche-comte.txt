@@ -6,6 +6,7 @@ state={
 	resources={
 		steel=60 # was: 128
 		aluminium=35 # was: 72
+		oil = 30
 	}
 
 	state_category = city
@@ -25,7 +26,7 @@ state={
 		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 2
+				arms_factory = 4
 				industrial_complex = 3
 			}
 		}

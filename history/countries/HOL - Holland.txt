@@ -4,7 +4,7 @@ set_cosmetic_tag = DRP_HOL
 set_convoys = 300
 
 add_ideas = {
-	
+	protestant
 }
 
 set_politics = {
@@ -23,4 +23,5 @@ set_popularities = {
 add_ideas = {
 		}
 
+recruit_character = HOL_William_V
 

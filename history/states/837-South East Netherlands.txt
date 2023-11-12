@@ -1,9 +1,12 @@
+
 state={
 	id=837
 	name="STATE_837"
 
 	history={
-		owner = AUS
+		owner = GER
+		add_core_of = GER
+		add_claim_by = FRA
 		add_core_of = BEL
 		victory_points = {
 			778 1 
@@ -23,10 +26,10 @@ state={
 	}
 
 	provinces={
-		6500 11562 
+		6500 
 	}
 	manpower=500
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	state_category=town
+	local_supplies=0.000
 }

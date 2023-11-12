@@ -21,8 +21,70 @@ ideas = {
 			}
 		}
 
+		FRA_Revolutionary_Spirit = {
+			picture = idea_FRA_Revolutionary_Spirit
 
+			allowed = {
+			}
+			available = {
+			}
 
+			removal_cost = -1
+		
+			modifier = {	
+		
+			}
+		}
+
+		FRA_Versailles = {
+			picture = idea_FRA_Versailles
+
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+				political_power_factor = -0.5
+				political_advisor_cost_factor = 0.1
+				military_staff_cost_factor = 0.1
+				research_speed_factor = -0.1
+				consumer_goods_factor = 0.1
+
+			}
+		}
+
+		FRA_Estates_General = {
+			picture = idea_FRA_Estates_General
+
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+		
+			}
+		}
+
+		FRA_Bastille = {
+			picture = idea_FRA_Bastille
+
+			allowed = {
+			}
+			available = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {	
+		
+			}
+		}
 	## Ideas ##
 
 	FRA_Constitutional_Guard = {
@@ -50,7 +112,7 @@ ideas = {
 		}
 
 		available = {
-			has_government = democratic
+			has_government = authoritarian_democracy
 		}
 
 		removal_cost = -1
@@ -62,25 +124,228 @@ ideas = {
 		}
 	}
 
-	FRA_Napoleon = {
+	FRA_get_rid_of_the_catholic_church_idea = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = { 
+		}
+
+		removal_cost = -1
+		
+		modifier = {				
+			research_speed_factor = 0.15
+			trade_opinion_factor = -0.2
+			political_power_cost = 0.5
+			stability_factor = -0.25
+		
+		}
+	}
+
+	
+	FRA_plan_a_new_campaign = {
 		picture = spa_carlism
 		allowed = {
 			original_tag = FRA
 			always = no
 		}
 		available = {
-			has_government = democratic
 		}
 
 		removal_cost = -1
 		
-		modifier = {	
-			war_support_weekly = 0.01
-			justify_war_goal_time = -0.15	``
-			political_power_cost = 0.1	
-		
+		modifier = {					
+			war_support_weekly = 0.025	
+			political_power_cost = 0.3				
+			annex_cost_factor = -0.15
 		}
 	}
 
+	FRA_three_pronged_attack = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			army_org_factor = 0.2
+			consumer_goods_factor = -0.1
+			army_speed_factor = 0.15
+
+		}
+	}
+
+	FRA_italian_campaign = {
+		picture = spa_carlism
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			training_time_factor = -0.15
+			weekly_manpower = 15000
+			production_speed_buildings_factor = -0.3
+
+		}
+	}
+
+	FRA_athiest_rising = {
+		picture = FRA_athiest_rising
+		allowed = {
+			original_tag = FRA
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			stability_factor = -0.3
+			war_support_factor = 0.15
+
+		}
+	}
+
+	FRA_louis_lives = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			monarchist_drift = 0.03
+		}
+	}
+
+	FRA_committee_of_public_safety_idea = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+
+		removal_cost = -1
+		
+		modifier = {					
+			improve_relations_maintain_cost_factor = 0.25
+			political_power_factor = 0.15
+		}
+	}
+	FRA_revolutionary_tribunal = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			drift_defence_factor = 0.1
+			justify_war_goal_time = -0.15			
+			political_power_cost = 0.45
+		}
+	}
+	FRA_cult_of_the_supreme_being = {
+		picture = FRA_louis_lives
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		
+		modifier = {					
+			surrender_limit = 0.15
+			political_power_gain = 0.3		
+			research_speed_factor = -0.10
+			justify_war_goal_time = -0.15
+			drift_defence_factor = 0.1	
+		}
+	}
+}
+
+	######################
+	## DESIGN COMPANIES ##
+	######################
+
+	materiel_manufacturer = {
+			
+		manufacture_darmes_de_charleville = {
+			picture = idea_manufacture_darmes_de_charleville
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		manufacture_darmes_de_saint_etienne = {
+			picture = idea_manufacture_darmes_de_saint_etienne		
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		versailles_armory = {
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		renault_fra = {
+		
+			picture = renault
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { heavy_tank_manufacturer }
+		}
 	}
 }

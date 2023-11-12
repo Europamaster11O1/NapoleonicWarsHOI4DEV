@@ -15,12 +15,13 @@ state={
 		}
 		add_core_of = VNI
 		add_core_of = AUS
-		start_resistance = CRO
+		add_core_of = SER
+		add_core_of = CRO
 
 	}
 
 	provinces={
-		3868 3924 3943 11816 11901 
+		984 3868 3924 3943 3974 11901 
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000

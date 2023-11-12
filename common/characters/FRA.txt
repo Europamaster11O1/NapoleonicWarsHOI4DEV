@@ -1,4 +1,12 @@
 characters={
+	FRA_maximilien_robespierre={ 
+		name="Maximilien Robespierre"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_maximilien_robespierre.dds"
+			}
+		}
+	}
 
 	FRA_national_convention={ 
 		name="National-Convention"
@@ -50,18 +58,19 @@ characters={
 		name="Jacques-Louis David"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_Jacques"
 		}
 	}
 
 		advisor={
 			cost = 75
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor1
 			allowed = {
 				original_tag = FRA
 			}
-			available = {	
+			available = {
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -77,20 +86,19 @@ characters={
 		name="Charles Maurice de Talleyrand-Périgord"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_Charles_Maurice_de_Talleyrand_Perigord"
 		}
 	}
 
 		advisor={
 			cost = 100
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor2
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
-				
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -106,20 +114,19 @@ characters={
 		name="Pierre Daru"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_pierre_daru"
 		}
 	}
 
 		advisor={
 			cost = 125
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor3
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
-				
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -135,19 +142,19 @@ characters={
 		name="Jean-Baptiste Collin de Sussy"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_Jean_Baptiste_Collin_de_Sussy"
 		}
 	}
 
 		advisor={
 			cost = 125
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor4
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -163,19 +170,19 @@ characters={
 		name="François Barbé-Marbois"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_Francois_Barbe_Marbois"
 		}
 	}
 
 		advisor={
 			cost = 150
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor5
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -198,12 +205,12 @@ characters={
 		advisor={
 			cost = 250
 			slot = high_command
-			idea_token = jacques_louis_david
+			idea_token = political_advisor6
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -219,19 +226,20 @@ characters={
 		name="Pasquale Paoli"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_Pasquale_Paoli"
 		}
 	}
 
 	advisor={
 			cost = 150
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor7
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
+
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -248,19 +256,19 @@ characters={
 		name="Emmanuel Joseph Sieyès"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_FRA_Emmanuel_Joseph_Sieyes"
 		}
 	}
 
 	advisor={
 			cost = 100
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor8
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -276,19 +284,19 @@ characters={
 		name="Lucien Bonaparte"
 		portraits={
 			army={
-				small="GFX_idea_FRA_Jacques-Louis_David"
+				small="GFX_idea_FRA_lucien_bonaparte"
 		}
 	}
 
 	advisor={
 			cost = 100
 			slot = political_advisor
-			idea_token = jacques_louis_david
+			idea_token = political_advisor9
 			allowed = {
 				original_tag = FRA
-				ruling_party = democratic
 			}
 			available = {	
+				has_government = authoritarian_democracy
 			}
 			
 			ai_will_do = {
@@ -312,9 +320,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist war_hero politically_connected  }
-			skill=6
-			attack_skill=6
+			traits={  bearer_of_artillery trickster }
+			skill=2
+			attack_skill=5
 			defense_skill=3
 			planning_skill=5
 			logistics_skill=4
@@ -331,12 +339,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer politically_connected  }
-			skill=5
-			attack_skill=4
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=4
+			traits={    }
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -350,8 +358,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer politically_connected  }
-			skill=5
+			traits={    }
+			skill=2
 			attack_skill=5
 			defense_skill=4
 			planning_skill=2
@@ -369,12 +377,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer politically_connected  }
-			skill=5
-			attack_skill=3
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=4
+			traits={    }
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -387,13 +395,13 @@ characters={
 				small="gfx/leaders/FRA/Portrait_France_Pierre_Augereau.dds"
 			}
 		}
-		corps_commander={
-			traits={ career_officer politically_connected  }
-			skill=4
-			attack_skill=3
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
+		corps_commander={ 
+			traits={}
+			skill=2
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -407,8 +415,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer politically_connected  }
-			skill=4
+			traits={}
+			skill=2
 			attack_skill=3
 			defense_skill=2
 			planning_skill=4
@@ -426,12 +434,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer politically_connected  }
-			skill=6
-			attack_skill=5
+			traits={    }
+			skill=2
+			attack_skill=4
 			defense_skill=4
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}

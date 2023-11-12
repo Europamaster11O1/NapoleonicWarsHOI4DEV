@@ -1,7 +1,9 @@
 capital = 16
-oob = FRA_1792
+
 
 1792.1.1 = {
+
+oob = FRA_1936
 
 set_convoys = 300
 set_cosmetic_tag = KIN_FRA
@@ -23,13 +25,21 @@ set_technology = {
 	early_battlecruiser = 1
 	early_battleship = 1
 }
-
+oob = FRA_1936
 add_ideas = {
+	FRA_Revolutionary_Spirit
 	FRA_Unpopular_Monarch
 	FRA_King_Louis
+	FRA_Versailles
+	FRA_Estates_General
+	FRA_Bastille
     civilian_economy
 	limited_conscription
 	limited_exports	
+	PTY_house_of_bourbon
+	catholic
+	absolute
+	interveneinaffairs
 }
 set_politics = {
 	ruling_party = monarchist
@@ -45,6 +55,21 @@ set_popularities = {
 	authoritarian_democracy = 30
 	jacobinism = 10
  }
+
+
+ add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 60000
+	producer = FRA
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 3400
+	producer = FRA
+}
+
+
 }
 
 ################
@@ -54,6 +79,7 @@ set_popularities = {
 recruit_character = FRA_Louis_XVI
 recruit_character = FRA_national_convention
 recruit_character = FRA_the_revolutionaries
+recruit_character = FRA_maximilien_robespierre
 recruit_character = FRA_Napoleon_Bonaparte
 recruit_character = FRA_Napoleon_Bonaparte_General
 recruit_character = FRA_Eugene_De_Beauharnais
@@ -71,3 +97,4 @@ recruit_character = FRA_Gilbert_du_Motier_de_Lafayette
 recruit_character = FRA_Pierre_Augereau
 recruit_character = FRA_Jean_Charles_Pichegru
 recruit_character = FRA_Francois_Kellermann
+

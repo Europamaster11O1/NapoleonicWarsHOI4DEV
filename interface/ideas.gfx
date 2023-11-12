@@ -1,6 +1,243 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_idea_FRA_athiest_rising"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_athiest_rising.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_slot_institution"
+		texturefile = "gfx/interface/idea_slot_institution.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_imperialism"
+		texturefile = "gfx/interface/institutions/imperialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_printingpress"
+		texturefile = "gfx/interface/institutions/printing_press.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_colonialism"
+		texturefile = "gfx/interface/institutions/colonialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_industrialisation"
+		texturefile = "gfx/interface/institutions/industrialisation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_legacy_of_the_thirty_years_war"
+		texturefile = "gfx/interface/ideas/HRE/idea_GER_legacy_of_the_thirty_years_war.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_eastern_menace"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_eastern_menace.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AUS_habsburg_legacy"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_habsburg_legacy.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Jacques"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Jacques-Louis_David.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_Emmanuel_Joseph_Sieyes"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Emmanuel_Joseph_Sieyes.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Francois_Barbe_Marbois"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Francois_Barbe_Marbois.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Pasquale_Paoli"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Pasquale_Paoli.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Jean_Baptiste_Collin_de_Sussy"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Jean-Baptiste_Collin_de_Sussy.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_pierre_daru"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_pierre_daru.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Charles_Maurice_de_Talleyrand_Perigord"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_Charles_Maurice_de_Talleyrand_Perigord.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_lucien_bonaparte"
+		texturefile = "gfx/interface/ideas/FRA/advisors/idea_FRA_lucien_bonaparte.dds"
+		noOfFrames = 1
+	}
+
+	### SWEDEN
+	SpriteType = {
+		name = "GFX_idea_SWE_svenskund"
+		texturefile = "gfx/interface/ideas/SWE/svensksund.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SWE_treaty_of_varala"
+		texturefile = "gfx/interface/ideas/SWE/varala.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SWE_union_security_act"
+		texturefile = "gfx/interface/ideas/SWE/union_security_act.dds"
+		noOfFrames = 1
+	}
+	### POLAND
+	SpriteType = {
+		name = "GFX_idea_PLC_stanislaw_august_poniatowski"
+		texturefile = "gfx/interface/ideas/POL/POL_Poniatowski.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_treaty_of_perpetual_friendship"
+		texturefile = "gfx/interface/ideas/POL/POL_treaty.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_jurgielt"
+		texturefile = "gfx/interface/ideas/POL/POL_Jurgielt.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_polish_prussian_pact"
+		texturefile = "gfx/interface/ideas/POL/POL_polish_prussian_pact.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PLC_third_may_constitution"
+		texturefile = "gfx/interface/ideas/POL/POL_third_may_constitution.dds"
+		noOfFrames = 1
+	}
+
+	### AMERICA
+	SpriteType = {
+		name = "GFX_idea_USA_whiskey_rebellion"
+		texturefile = "gfx/interface/ideas/USA/whiskey_rebellion.dds"
+		noOfFrames = 1
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_USA_american_indian_wars"
+		texturefile = "gfx/interface/ideas/USA/american_indian_wars.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_USA_a_new_country"
+		texturefile = "gfx/interface/ideas/USA/a_new_country.dds"
+		noOfFrames = 1
+	}
+	### ENGLAND
+	SpriteType = {
+		name = "GFX_idea_ENG_british_empire"
+		texturefile = "gfx/interface/ideas/idea_ENG_british_empire.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_parliament"
+		texturefile = "gfx/interface/ideas/ENG/prlm-2.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_thirteen_colonies"
+		texturefile = "gfx/interface/ideas/ENG/Loss-of-the-13-Colonies.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_slave_trade"
+		texturefile = "gfx/interface/ideas/ENG/slave_trade_national_spirit.dds"
+		noOfFrames = 1
+	}
+
+	###
+	SpriteType = {
+		name = "GFX_idea_manufacture_darmes_de_saint_etienne"
+		texturefile = "gfx/interface/ideas/manufacture_darmes_de_saint_etienne.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_manufacture_darmes_de_charleville"
+		texturefile = "gfx/interface/ideas/manufacture_darmes_de_charleville.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_Revolutionary_Spirit"
+		texturefile = "gfx/interface/ideas/idea_FRA_Revolutionary_Spirit.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_add_pol_idea_buttonn"
+		texturefile = "gfx/interface/ideas/idea_add_pol_idea_buttonn.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTY_house_of_habsburg"
+		texturefile = "gfx/interface/ideas/idea_PTY_house_of_habsburg.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTY_house_of_hanover"
+		texturefile = "gfx/interface/ideas/idea_PTY_house_of_hanover.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTV_house_of_hanover"
+		texturefile = "gfx/interface/ideas/idea_PTV_house_of_hanover.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
+		name = "GFX_idea_idea_PTY_house_of_bourbon"
+		texturefile = "gfx/interface/ideas/idea_PTY_house_of_bourbon.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
 		name = "GFX_idea_idea_INT_italian_identity"
 		texturefile = "gfx/interface/ideas/idea_INT_italian_identity.dds"
 		noOfFrames = 1
@@ -19,6 +256,12 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_TRB_unexplored_land_icon"
+		texturefile = "gfx/interface/ideas/idea_TRB_unexplored_land_icon.dds"
+		noOfFrames = 1
+	}
+
+	SpriteType = {
 		name = "GFX_idea_AUS_crumbling_empire"
 		texturefile = "gfx/interface/ideas/AUS_crumbling_empire.dds"
 		noOfFrames = 1
@@ -33,12 +276,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_AUS_ethnic_tension"
 		texturefile = "gfx/interface/ideas/idea_AUS_ethnic_tension.dds"
-		noOfFrames = 1
-	}
-
-	SpriteType = {
-		name = "GFX_idea_ENG_british_empire"
-		texturefile = "gfx/interface/ideas/idea_ENG_british_empire.dds"
 		noOfFrames = 1
 	}
 
@@ -2250,6 +2487,18 @@ spriteTypes = {
 	}
 	
 	### FRENCH IDEAS
+	spriteType = {
+		name = "GFX_idea_FRA_Versailles"
+		texturefile = "gfx/interface/ideas/FRA/Versailles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Estates_General"
+		texturefile = "gfx/interface/ideas/FRA/the_estates_general.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Bastille"
+		texturefile = "gfx/interface/ideas/FRA/Bastille.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_maurice_thorez"
 		texturefile = "gfx/interface/ideas/idea_maurice_thorez.dds"
@@ -7264,5 +7513,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_democracy_banned"
 		texturefile = "gfx/interface/ideas/idea_generic_democracy_banned.dds"
 	}
+	
 			
 }

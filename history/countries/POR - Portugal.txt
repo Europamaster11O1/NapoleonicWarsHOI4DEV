@@ -3,8 +3,10 @@ capital = 112
 set_convoys = 300
 
 add_ideas = {
-	
+	catholic
 }
+
+puppet = BRA
 
 set_politics = {
 	ruling_party = monarchist
@@ -18,9 +20,6 @@ set_popularities = {
 	monarchist = 60
 	socialism = 0
 }
-add_ideas = {
-		}
-puppet = BRA
 
-recruit_character = 
+recruit_character = POR_John_VI
 
